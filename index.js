@@ -3,6 +3,7 @@ import Buzon from './buzon.js';
 (function() {
   const persons = [
     { name: 'Martín', avatar: './img/pacman2.png' },
+    { name: 'Guillermo', avatar: './img/pacman2.png' },
     { name: 'Jago', avatar: './img/pacman2.png' },
     { name: 'Jorge', avatar: './img/pacman2.png' },
     { name: 'Javi', avatar: './img/pacman2.png' },
