@@ -2,14 +2,15 @@ import Buzon from './buzon.js';
 
 (function() {
   const persons = [
-    { name: 'Martín', avatar: './img/pacman2.png' },
-    { name: 'Guillermo', avatar: './img/pacman2.png' },
-    { name: 'Jago', avatar: './img/pacman2.png' },
-    { name: 'Jorge', avatar: './img/pacman2.png' },
-    { name: 'Javi', avatar: './img/pacman2.png' },
-    { name: 'Marcos', avatar: './img/pacman2.png' },
-    { name: 'Sergio', avatar: './img/pacman2.png' },
+    { name: 'Guillermo', avatar: './img/scientist-man.png' },
+    { name: 'Jago', avatar: './img/farmer-man.png' },
+    { name: 'Jorge', avatar: './img/worker-man.png' },
+    { name: 'Javi', avatar: './img/police-man.png' },
+    { name: 'Marcos', avatar: './img/detective-man.png' },
+    { name: 'Sergio', avatar: './img/teacher-man.png' },
   ];
+
+  // Iconos de https://icons8.com/icon/set/man/emoji
 
   const $mainImage = document.querySelector('#main-image');
   const $mainTitle = document.querySelector('#main-title');
